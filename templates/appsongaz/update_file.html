@@ -1,0 +1,24 @@
+{% extends 'appsongaz/base.html' %}
+{% block title %}Update File{% endblock %}
+
+{% block content %}
+    <div class="body flex-grow-1 px-3">
+        <div class="container-lg">
+            <div class="mb-4">
+                <div class="card-header text-center my-5"><h2>Update your file</h2></div>
+            </div>
+            <form action="{% url 'update' file.id %}" method="post" enctype="multipart/form-data">
+                {% csrf_token %}
+                <div class="row align-items-center">
+                    {% for field in form.visible_fields %}
+                        {{ field }}
+                    {% endfor %}
+                    <div class="col-md-4 float-right">
+                        <button type="submit" class="btn btn-primary btn-lg btn-block mt-5">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+{% endblock %}

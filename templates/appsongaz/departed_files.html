@@ -1,0 +1,97 @@
+{% extends 'appsongaz/base.html' %}
+{% block title %}Departed Files{% endblock %}
+
+{% block content %}
+    <div class="body flex-grow-1 px-3">
+        <div class="container-lg">
+            <div class="car"></div>
+            <div class="card mb-4">
+                <div class="card-header text-center"><h2>Upload a File</h2></div>
+                <div class="card-body">
+                    <form action="{% url 'departed_files' %}" method="post" enctype="multipart/form-data">
+                        {% csrf_token %}
+                        <div class="row">
+                            <div class="col-md-9">
+                                {{ form.file }}
+                            </div>
+                            <div class="col-md-3">
+                                <button type="submit" class="btn btn-primary btn-lg btn-block">Submit</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="card mb-4">
+                <div class="card-header text-center">
+                    <h2>All Departed Files</h2>
+                </div>
+                <div class="card-body">
+
+                    <div class="example">
+                        <div class="tab-content rounded-bottom">
+                            <div class="tab-pane p-3 active preview" role="tabpanel" id="preview-1008">
+                                <table class="table table-hover table-striped">
+                                    <thead>
+                                    <tr>
+                                        <th scope="col">ID</th>
+                                        <th scope="col">File name</th>
+                                        <th scope="col">Owner</th>
+                                        <th scope="col">Extension</th>
+                                        <th scope="col">Size</th>
+                                        <th scope="col">Date</th>
+                                        <th scope="col">Update</th>
+                                        <th scope="col">Download</th>
+                                        <th scope="col">Delete</th>
+                                    </tr>
+
+                                    </thead>
+                                    <tbody>
+                                    {% for file in all_departed_files %}
+                                        <tr>
+                                            <th scope="row">{{ file.unique_id }}</th>
+                                            <td>{{ file.filename|truncatechars:15 }}</td>
+                                            <td>{{ file.user.username }}</td>
+                                            <td>{{ file.file.name|slice:'-4:' }}</td>
+                                            <td>{{ file.file.size|filesizeformat }}</td>
+                                            <td>{{ file.uploaded_at }}</td>
+                                            <td class="text-center">
+                                                {% if file.user.id == user.id %}
+                                                    <a class="text-center" href="{% url 'update' file.id %}">
+                                                        <i class="bi bi-pencil-square text-info fs-5 text-center"></i>
+                                                    </a>
+                                                {% endif %}
+                                            </td>
+
+                                            <td class="text-center">
+                                                <a href="{% url 'download_file' file.id %}">
+                                                    <i class="bi bi-file-earmark-arrow-down fs-5 text-success"></i>
+                                                </a>
+                                            </td>
+
+                                            <td class="text-center">
+                                                {% if file.user.id == user.id %}
+
+                                                    <a href="{% url 'delete' file.id %}">
+                                                        <i class="bi bi-trash text-danger fs-5"></i>
+                                                    </a>
+                                                {% endif %}
+                                            </td>
+                                        </tr>
+                                    {% endfor %}
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <style>
+        #download-icon {
+            margin-left: 50px;
+        }
+    </style>
+{% endblock %}

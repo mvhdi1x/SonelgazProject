@@ -1,0 +1,64 @@
+{% extends 'appsongaz/base.html' %}
+{% block title %}All Files{% endblock %}
+
+{% block content %}
+    <div class="body flex-grow-1 px-3">
+        <div class="container-lg">
+            <div class="body flex-grow-1 px-3">
+                <div class="container-lg">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="card shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+                                <div class="card-body text-center">
+                                    <h3 class="card-title">
+                                        Arrived Files
+                                        <i class='bx bxs-file-import file-import-icon'></i>
+                                    </h3>
+                                    <h4 class="card-text my-5">
+                                        Total arrived files:
+                                        <span class="fs-4">{{ all_arrived_files.count }}</span>
+                                    </h4>
+                                    <a href="{% url 'arrived_files' %}" class="btn btn-success mx-auto d-block check-files">Check files</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="card shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+                                <div class="card-body text-center">
+                                    <h3 class="card-title">
+                                        Departed Files
+                                        <i class='bx bxs-file-export file-export-icon'></i>
+                                    </h3>
+                                    <h4 class="card-text my-5">
+                                        Total departed files:
+                                        <span class="fs-4">{{ all_departed_files.count }}</span>
+                                    </h4>
+                                    <a href="{% url 'departed_files' %}" class="btn btn-success mx-auto d-block check-files">Check files</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-12">
+                            <div class="card shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+                                <div class="card-body text-center">
+                                    <h3 class="card-title">
+                                    </h3>
+                                    <h5 class="card-text">
+                                        MANAGEMENT OF SONELGAZ DOCUMENTS
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <style>
+        #download-icon {
+            margin-left: 50px;
+        }
+    </style>
+{% endblock %}

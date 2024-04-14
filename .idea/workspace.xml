@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5ea27e22-0881-406c-9431-dbf50478a937" name="Changes" comment="filter files">
+      <change afterPath="$PROJECT_DIR$/static/appsongaz/img/logo_doc.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/logo_resized.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/appsongaz/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/appsongaz/base.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2dq3IL2vWyrmyPsZXKBD652kNek" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static" />
+      <recent name="$PROJECT_DIR$/static/appsongaz/img" />
+      <recent name="$PROJECT_DIR$/members/templates/registration" />
+      <recent name="$PROJECT_DIR$/members/templates/authenticate" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="sonelgazMahdi" type="Python.DjangoServer" factoryName="Django server">
+      <module name="sonelgazMahdi" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="ProjectSonalgaz.settings" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="http://127.0.0.1:8000/" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5ea27e22-0881-406c-9431-dbf50478a937" name="Changes" comment="" />
+      <created>1710721700012</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1710721700012</updated>
+      <workItem from="1710721701180" duration="42000" />
+      <workItem from="1710721749798" duration="9558000" />
+      <workItem from="1710733802054" duration="813000" />
+      <workItem from="1710734627960" duration="18000" />
+      <workItem from="1710734736306" duration="411000" />
+      <workItem from="1710810478218" duration="2033000" />
+      <workItem from="1710862331234" duration="7737000" />
+      <workItem from="1710980790332" duration="7713000" />
+      <workItem from="1711055873720" duration="7480000" />
+      <workItem from="1711145504977" duration="6966000" />
+      <workItem from="1711219361890" duration="1710000" />
+      <workItem from="1711312367291" duration="281000" />
+      <workItem from="1713064200300" duration="731000" />
+    </task>
+    <task id="LOCAL-00001" summary="departed/arrived files">
+      <created>1710729844097</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1710729844097</updated>
+    </task>
+    <task id="LOCAL-00002" summary="departed/arrived files">
+      <created>1710733681492</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1710733681492</updated>
+    </task>
+    <task id="LOCAL-00003" summary="departed/arrived html pages">
+      <created>1710868983251</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1710868983251</updated>
+    </task>
+    <task id="LOCAL-00004" summary="upload arrived files">
+      <created>1710892670802</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1710892670802</updated>
+    </task>
+    <task id="LOCAL-00005" summary="departed files instance">
+      <created>1710892904662</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1710892904662</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add favicon">
+      <created>1710954413241</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1710954413241</updated>
+    </task>
+    <task id="LOCAL-00007" summary="profile name">
+      <created>1710954901824</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1710954901824</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add unique id to the model">
+      <created>1710982118050</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1710982118050</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add migrations">
+      <created>1710982143739</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1710982143739</updated>
+    </task>
+    <task id="LOCAL-00010" summary="fix error messages in login">
+      <created>1710991684688</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1710991684688</updated>
+    </task>
+    <task id="LOCAL-00011" summary="login redirect">
+      <created>1710993655054</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1710993655054</updated>
+    </task>
+    <task id="LOCAL-00012" summary="change password">
+      <created>1711060218801</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1711060218801</updated>
+    </task>
+    <task id="LOCAL-00013" summary="change password messages">
+      <created>1711067348212</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1711067348212</updated>
+    </task>
+    <task id="LOCAL-00014" summary="check who is user">
+      <created>1711147257709</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1711147257709</updated>
+    </task>
+    <task id="LOCAL-00015" summary="filter files">
+      <created>1711220505450</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1711220505450</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="departed/arrived files" />
+    <MESSAGE value="departed/arrived html pages" />
+    <MESSAGE value="upload arrived files" />
+    <MESSAGE value="departed files instance" />
+    <MESSAGE value="add favicon" />
+    <MESSAGE value="profile name" />
+    <MESSAGE value="add unique id to the model" />
+    <MESSAGE value="add migrations" />
+    <MESSAGE value="fix error messages in login" />
+    <MESSAGE value="login redirect" />
+    <MESSAGE value="change password" />
+    <MESSAGE value="change password messages" />
+    <MESSAGE value="check who is user" />
+    <MESSAGE value="filter files" />
+    <option name="LAST_COMMIT_MESSAGE" value="filter files" />
+  </component>
+</project>
